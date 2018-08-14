@@ -7,7 +7,7 @@
                         b."Campaign_C4",b."Payment terms",b."City",b."CreatedAt",
                         b."Figure Booking",b."CRMProjectID",b."ProjectName",b."ApplicantSalesOffice",b."ApplicantSalesEngineer",b."EndUserName",
                         b."SalesEngineerByEndUer",b."SalesOfficeByEndUser",b."SalesRegionByEndUser",b."Product Area",b."Product Group",b."Companies To Verify",
-                        blf_MaterialPrice."CLP in CNY",blf_MaterialPrice."GLP in Euro",b."Operating Organization"
+                        blf_MaterialPrice."CLP in CNY",blf_MaterialPrice."GLP in Euro",b."Operating Organization" 
 FROM
             (SELECT a."Id",a."SAP NO.",blf_Account."Customer Name",blf_Account."Customer English Name", blf_Account."Cust.Class" as "Customer Classification",
                            blf_Account."Area Sales Office" as "Sale Office",blf_Account."Region" ,blf_Account."Sales Engineer" as "Sales Engineer", blf_Account."O/E/D",
